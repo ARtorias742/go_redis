@@ -1,3 +1,6 @@
+sudo apt update && sudo apt install -y telnet
+
+
 telnet localhost 6379
 
 
@@ -6,3 +9,36 @@ GET mykey
 EXPIRE mykey 10
 DEL mykey
 
+
+go run cmd/main.go -config=config.yaml
+
+go run cmd/main.go -config=config-replica.yaml
+
+telnet localhost 6380
+
+SET key value
+GET key
+LPUSH mylist item
+RPOP mylist
+SADD myset member
+SMEMBERS myset
+MULTI
+SET key1 val1
+SET key2 val2
+EXEC
+
+
+
+## Telnet installation
+
+telnet
+
+dpkg -l | grep telnet
+
+apt list --installed | grep telnet
+
+rpm -q telnet
+
+which telnet
+
+command -v telnet

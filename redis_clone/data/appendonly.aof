@@ -1,0 +1,4 @@
+["SET","mykey","hello"]
+["SET","mykey","hello"]
+["SET","key1","value1"]
+["SET","key2","value2"]

@@ -1,18 +1,15 @@
-# go_redis
-An atempt at creating  redis clone 💻🚀
-
-# Redis Clone in Go
-
-A simple Redis-like in-memory key-value store implemented in Go for learning purposes.
+A Redis-like in-memory store with persistence, replication, and advanced data structures.
 
 ## Features
-- SET key value
-- GET key
-- DEL key [key ...]
-- EXPIRE key seconds
-- EXISTS key
+- **Key-Value**: SET, GET, DEL, EXPIRE
+- **Lists**: LPUSH, RPOP
+- **Sets**: SADD, SMEMBERS
+- **Persistence**: RDB snapshots and AOF logging
+- **Replication**: Master-replica sync (basic)
+- **Logging**: File-based logs
+- **Configuration**: YAML file
 
 ## Running the Project
-1. Initialize the Go module:
+1. Initialize the project:
    ```bash
    go mod init github.com/yourusername/redis-clone

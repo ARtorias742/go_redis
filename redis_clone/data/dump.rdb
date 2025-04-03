@@ -1,0 +1,1 @@
+{"key1":{"Type":0,"StringVal":"value1","ListVal":null,"SetVal":null,"ExpiresAt":0},"key2":{"Type":0,"StringVal":"value2","ListVal":null,"SetVal":null,"ExpiresAt":0},"mykey":{"Type":0,"StringVal":"hello","ListVal":null,"SetVal":null,"ExpiresAt":0}}

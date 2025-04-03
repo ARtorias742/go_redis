@@ -1,0 +1,5 @@
+port: ":6380"
+log_level: "info"
+rdb_interval: 60
+enable_aof: true
+replica_of: "localhost:6379"
