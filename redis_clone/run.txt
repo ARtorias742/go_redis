@@ -1,0 +1,8 @@
+telnet localhost 6379
+
+
+SET mykey hello
+GET mykey
+EXPIRE mykey 10
+DEL mykey
+
