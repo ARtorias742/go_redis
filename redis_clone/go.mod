@@ -1,6 +1,6 @@
 module github.com/ARtorias742/Redis
 
-go 1.24.1
+go 1.22
 
 require (
 	github.com/sirupsen/logrus v1.9.3
